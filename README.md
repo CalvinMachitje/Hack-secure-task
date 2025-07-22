@@ -14,11 +14,11 @@ Key Activities
 Main Findings
 Vulnerability	          Risk	        Example/Evidence
 -------------------------------------------------------------------------------
-Reflected XSS	        |  Critical	   | <script>alert('XSS')</script> in inputs
-SQL Injection (SQLi)	| Critical	   | Extracted DB and credentials via SQLMap
-Exposed Credentials	  |  High	       | credentials.txt/ipaddresses.txt discovered
-Directory Listings	  | Medium	     | /admin, /cgi-bin, create.sql exposed
-Outdated Software	    |  Medium	     | nginx 1.19.0 and PHP 5.6.40 detected
+1. Reflected XSS	        |  Critical	   | <script>alert('XSS')</script> in inputs
+2. SQL Injection (SQLi) 	|  Critical	   | Extracted DB and credentials via SQLMap
+3. Exposed Credentials	  |  High	       | credentials.txt/ipaddresses.txt discovered
+4. Directory Listings	    |  Medium	     | /admin, /cgi-bin, create.sql exposed
+5. Outdated Software	    |  Medium	     | nginx 1.19.0 and PHP 5.6.40 detected
 
 Skills Demonstrated
 1. Conducting vulnerability scanning (Nmap, SQLMap)
